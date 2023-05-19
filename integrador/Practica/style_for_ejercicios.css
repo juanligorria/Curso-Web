@@ -1,0 +1,34 @@
+
+
+header {
+    background-color: #551E19;
+    
+}
+* {font-family: 'Babylonica', cursive;
+font-size: 25pt;}
+
+nav {
+    display: inline;
+}
+
+li {
+    display: inline;
+    text-align: right;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.clear {clear: both;}
+
+ul {
+    float: right;
+}
+
+* {  color: #E6B17E;
+    text-decoration: none;}
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Babylonica&family=Calligraffitti&family=Ysabeau:wght@1&display=swap" rel="stylesheet">
+ 
+    
