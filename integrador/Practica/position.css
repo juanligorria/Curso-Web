@@ -1,0 +1,17 @@
+/* div {display: inline-block;} */
+
+
+/* .fotos {position: absolute; */
+left: 200px;
+top: 0px;}
+
+section {position: relative;}
+
+/* .fotos {position: absolute; */
+left: 0px;
+top: 0px; 
+border-style: double; border-width: 5px;
+}
+body {margin: 0;}
+.fotos {display: inline-block;}
+
