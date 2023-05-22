@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,14 +10,20 @@
     <meta name="Author" content="Juan Ligorria">
     <meta name="keywords" content="hotel, reserva, sur, estadia, relax, servicios especiales, paquetes">
     <script src="https://kit.fontawesome.com/9d6f5c9f93.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../integrador/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Babylonica&family=Dancing+Script&display=swap" rel="stylesheet"> 
+
 </head>
+
 <body>
     <header>
-        <div>
-            <a href="index.html">
-                <img src="../integrador/img/logo.png" alt="Logo del hotel">
-            </a>
-        </div>
+
+        <a href="index.html">
+            <img src="../integrador/img/logo 2.png" width="250" alt="Logo del hotel">
+        </a>
+
         <nav>
             <ul>
                 <li>
@@ -31,7 +38,7 @@
                 <li>
                     <a href="index.html#paquetesespeciales">Paquetes especiales</a>
                 </li>
-                
+
                 <li>
                     <a href="contacto.html">Contacto</a>
                 </li>
@@ -40,121 +47,130 @@
                 </li>
             </ul>
         </nav>
-        <h1>Reservas</h1>
-        
-    </header> 
-<Section>
-    <img src="../integrador/img/reservas 2.webp" width="500" alt="foto de una habitacion">
-</Section>
-<h2>Datos personales</h2>
-<section>
-    <form action="post">
-        <label for="nombre">Nombre</label>
-    <input type="text" name="nombre" placeholder="Juan" required>
 
-    <Label for="apellido">Apellido</Label>
-    <input type="text" name="apellido" placeholder="Lopez" required>
 
-    <label for="direccion">Direccion</label>
-    <input type="text" name="direccion" placeholder="San martin 500" required>
+    </header>
+    <h1>Reservas</h1>
+    <Section>
+        <img src="../integrador/img/reservas 2.webp" width="500" alt="foto de una habitacion">
+    </Section>
+    <h2>Datos personales</h2>
+    <section>
+        <form action="post">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" placeholder="Juan" required>
 
-    <label for="ciudad">Ciudad</label>
-    <input type="text" name="ciudad" placeholder="Pilar" required>
+            <Label for="apellido">Apellido</Label>
+            <input type="text" name="apellido" placeholder="Lopez" required>
 
-    <Label for="CP"> Codigo postal</Label>
-    <input type="number" name="CP" placeholder="1456" required>
+            <label for="direccion">Direccion</label>
+            <input type="text" name="direccion" placeholder="San martin 500" required>
 
-    <label for="telefono">Telefono</label>
-    <input type="tel" name="telefono" placeholder="15 1111 2222" required>
+            <label for="ciudad">Ciudad</label>
+            <input type="text" name="ciudad" placeholder="Pilar" required>
 
-    <label for="email">Email</label>
-    <input type="email" name="email" placeholder="xxxxxx@gmail.com" required>
-    <div>
-        <h2>Datos de la reserva</h2>
-    <div>
-        <label for="habitacion">Habitacion</label>
-        <select name="habitacion" id="habitaciones">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-        </select>
-    </div>
+            <Label for="CP"> Codigo postal</Label>
+            <input type="number" name="CP" placeholder="1456" required>
 
-        <label for="fecha de llegada">Desde</label>
-        <input type="date" name="fecha de llegada" required>
+            <label for="telefono">Telefono</label>
+            <input type="tel" name="telefono" placeholder="15 1111 2222" required>
 
-        <label for="fecha de partida">Hasta</label>
-        <input type="date" name="fecha de partida" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="xxxxxx@gmail.com" required>
+            <div>
+                <h2>Datos de la reserva</h2>
+                <div>
+                    <label for="habitacion">Habitacion</label>
+                    <select name="habitacion" id="habitaciones">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
 
-        <label for="numero de adultos">Adultos</label>
-        <input type="number" name="numero de adultos" required> 
+                <label for="fecha de llegada">Desde</label>
+                <input type="date" name="fecha de llegada" required>
 
-        <label for="numero de niños">Niños</label>
-        <input type="number" name="numero de niños" required>
-    </div>
-    <div>
-        <h2>Pago</h2>
-        <span>
-            <label for="metodo de pago">Efectivo</label>
-            <input type="radio" name="metodo de pago" value="Efectivo" checked>
-        </span>
-        <span>
-            <label for="metodo de pago">Tarjeta</label>
-            <input type="radio" name="metodo de pago" value="tarjeta">
-        </span>
-        <span>
-            <label for="metodo de pago">Transferencia</label>
-            <input type="radio" name="metodo de pago" value="transferencia">
-        </span>
-        <span>
-            <label for="metodo de pago">Mercadopago</label>
-            <input type="radio" name="metodo de pago" value="mercadopago">
-         </span>
-    </div>
-    <div>
-        <h2>Mensaje</h2>
-        <textarea name="requerimiento" id="requerimiento" cols="30" rows="10" placeholder="¿Tiene algun requerimiento especial?"></textarea>
-    </div>
-    <div>
-        <input type="reset">
-        <input type="submit">
-    </div>
-    </form>
-</section>
+                <label for="fecha de partida">Hasta</label>
+                <input type="date" name="fecha de partida" required>
 
-<footer>
-    <div>
-        <h4>Nuestras redes</h4>
-        <ul>
-            <li><a href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook fa-2xl"></i></a></li><br>
-                    <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
-        </ul>
-    </div>
-    <div>
-        <h4>Medios de pago</h4>
-        <ul>
-            <li><img src="https://fontawesome.com/icons/money-check-dollar?f=classic&s=light&sz=2xl" alt="Efectivo"></li>
-            <li><img src="" alt="Transferencia"></li>
-            <li><img src="https://fontawesome.com/icons/money-check-dollar?f=classic&s=light" alt="Mercadopago"></li>
-            <li><img src="" alt="Tarjeta"></li>
-            
-            
-        </ul>
-    </div>
-    <div>
-        <h4>Ubicacion</h4>
-        <p>Calle Falsa 123</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12158.036717870333!2d-71.2585052!3d-40.37540625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9610fe20d9fac925%3A0x70e639f64f6ed72b!2sVilla%20Meliquina%2C%20Neuqu%C3%A9n!5e0!3m2!1ses-419!2sar!4v1683762203353!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <div>
-        <i class="fa-regular fa-copyright fa-2xl"></i>
-        <p>Copyright 2023</p>
-    </div>
-    <div>
-        <i class="fa-brands fa-whatsapp fa-2xl"></i>
-        <p>Chatea con nosotros</p>
-    </div>
-</footer>
+                <label for="numero de adultos">Adultos</label>
+                <input type="number" name="numero de adultos" required>
+
+                <label for="numero de niños">Niños</label>
+                <input type="number" name="numero de niños" required>
+            </div>
+            <div>
+                <h2>Pago</h2>
+                <span>
+                    <label for="metodo de pago">Efectivo</label>
+                    <input type="radio" name="metodo de pago" value="Efectivo" checked>
+                </span>
+                <span>
+                    <label for="metodo de pago">Tarjeta</label>
+                    <input type="radio" name="metodo de pago" value="tarjeta">
+                </span>
+                <span>
+                    <label for="metodo de pago">Transferencia</label>
+                    <input type="radio" name="metodo de pago" value="transferencia">
+                </span>
+                <span>
+                    <label for="metodo de pago">Mercadopago</label>
+                    <input type="radio" name="metodo de pago" value="mercadopago">
+                </span>
+            </div>
+            <div>
+                <h2>Mensaje</h2>
+                <textarea name="requerimiento" id="requerimiento" cols="30" rows="10"
+                    placeholder="¿Tiene algun requerimiento especial?"></textarea>
+            </div>
+            <div>
+                <input type="reset">
+                <input type="submit">
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <div>
+            <h4>Nuestras redes</h4>
+            <ul>
+                <li><a href="https://es-la.facebook.com/" target="_blank"><i
+                            class="fa-brands fa-square-facebook fa-2xl"></i></a></li><br>
+                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Medios de pago</h4>
+            <ul>
+                <li><img src="https://fontawesome.com/icons/money-check-dollar?f=classic&s=light&sz=2xl" alt="Efectivo">
+                </li>
+                <li><img src="" alt="Transferencia"></li>
+                <li><img src="https://fontawesome.com/icons/money-check-dollar?f=classic&s=light" alt="Mercadopago">
+                </li>
+                <li><img src="" alt="Tarjeta"></li>
+
+
+            </ul>
+        </div>
+        <div>
+            <h4>Ubicacion</h4>
+            <p>Calle Falsa 123</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12158.036717870333!2d-71.2585052!3d-40.37540625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9610fe20d9fac925%3A0x70e639f64f6ed72b!2sVilla%20Meliquina%2C%20Neuqu%C3%A9n!5e0!3m2!1ses-419!2sar!4v1683762203353!5m2!1ses-419!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div>
+            <i class="fa-regular fa-copyright fa-2xl"></i>
+            <p>Copyright 2023</p>
+        </div>
+        <div>
+            <i class="fa-brands fa-whatsapp fa-2xl"></i>
+            <p>Chatea con nosotros</p>
+        </div>
+    </footer>
 </body>
+
 </html>
