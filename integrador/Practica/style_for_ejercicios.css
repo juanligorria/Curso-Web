@@ -9,7 +9,10 @@ header {
 font-size: 25pt;}
 
 nav {
-    display: inline;
+    display: inline-flex;
+    justify-content: space-between;
+position: absolute;
+margin-top: 20px;
 }
 
 li {

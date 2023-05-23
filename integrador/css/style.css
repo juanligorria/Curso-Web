@@ -1,21 +1,28 @@
 header {
     background-color: #551E19;
+    display: inline-flex;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
 }
 
 body {
     margin: 0;
+    margin-top: 80px;
 }
 
 * {
     color: #E6B17E;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
 }
 
-nav {
-    float: right;
+header ul {
+    display: inline-flex;
+    list-style-type:none;
+    justify-content: space-between;
+    font-size: 18pt;
+    width: 900px;
+    margin-top: 55px;
 }
-
-nav li {
-    display: inline-block; margin-left: 8px; margin-right: 8px; margin-top: 25px;
-}
-* {font-family: 'Dancing Script', cursive;}
-nav li {font-size: 18pt;}
