@@ -1,6 +1,13 @@
-section {
-    display: inline-flex;
-    /* flex-direction: row-reverse; */
-    width: 100%;
-    justify-content: flex-end;
+.Caja {
+    height: 200px;
+    width: 250px;
+    background-color: chocolate;
+    border: 2px;
+    border-style: solid;
+    padding: 2px;
 }
+body {display: flex;
+flex-direction: column;
+min-height: 100vh;}
+section {flex-grow: 1;}
+

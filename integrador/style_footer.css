@@ -1,0 +1,10 @@
+footer {
+    width: 100%;
+    display: flex;
+    background-color: brown;
+    justify-content: space-around;
+}
+
+footer div {
+    flex-basis: 30%;
+}
