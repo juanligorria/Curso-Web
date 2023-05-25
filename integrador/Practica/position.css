@@ -1,13 +1,22 @@
 .Caja {
-    height: 200px;
-    width: 250px;
+    height: 200px; 
+     width: 250px; 
     background-color: chocolate;
     border: 2px;
     border-style: solid;
     padding: 2px;
 }
-body {display: flex;
-flex-direction: column;
-min-height: 100vh;}
-section {flex-grow: 1;}
 
+section {
+    display: flex;
+    /* flex-direction: row; */
+    min-height: 100vh;
+    /* align-items: baseline; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+section {
+    flex-grow: 1;
+}

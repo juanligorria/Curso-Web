@@ -32,14 +32,69 @@ header ul {
     margin-top: 55px;
 }
 
-footer {background-color: #551E19;
-width: 100%;
+body {
+    margin: 0;
 }
-.footer_a {display: inline-flex;
-width: 100%; justify-content: space-around;}
-.footer_b {display: inline-flex;
-width: 100%;
-justify-content: space-between;}
-.pago {display:inline-flex; justify-content: space-between;}
-    
-    
+
+
+footer div {
+    width: 400px;
+}
+
+footer {
+    width: 100%;
+    background-color: brown;
+    color: #E6B17E;
+    font-size: 16pt;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: baseline;
+}
+
+.ubicacion2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ubicacion2 p {
+    margin-right: 25px;
+}
+
+.pago {
+    align-content: center;
+}
+
+.pago ul {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    list-style: none;
+
+}
+
+.pago ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#pago1 {font-size: 40pt;}
+#pago2  {font-size: 40pt;}
+#pago3 {font-size: 40pt;}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48; font-size: 18pt;
+}
+.copy {display: flex;
+flex-direction: row;}
+.chat {display: flex;
+flex-direction: row;}
+.redes ul {display: flex;
+flex-direction: row;
+list-style: none;}
+.redes ul li {margin-left: 10px; margin-right: 10px;}
