@@ -7,7 +7,10 @@ header {
     top: 0px;
     z-index: 1;
 }
-header a {color:#e6b17e}
+
+header a {
+    color: #e6b17e
+}
 
 
 
@@ -21,7 +24,10 @@ body {
     background-color: #E6B17E;
     margin: 0;
 }
-.btn {color: #551e19;}
+
+.btn {
+    color: #551e19;
+}
 
 * {
     /* color: #E6B17E; */
@@ -82,25 +88,48 @@ footer {
     margin-left: 10px;
     margin-right: 10px;
 }
-#pago1 {font-size: 40pt;}
-#pago2  {font-size: 40pt;}
-#pago3 {font-size: 40pt;}
+
+#pago1 {
+    font-size: 40pt;
+}
+
+#pago2 {
+    font-size: 40pt;
+}
+
+#pago3 {
+    font-size: 40pt;
+}
 
 .material-symbols-outlined {
     font-variation-settings:
         'FILL' 0,
         'wght' 400,
         'GRAD' 0,
-        'opsz' 48; font-size: 18pt;
+        'opsz' 48;
+    font-size: 18pt;
 }
-.copy {display: flex;
-flex-direction: row;}
-.chat {display: flex;
-flex-direction: row;}
-.redes ul {display: flex;
-flex-direction: row;
-list-style: none;}
-.redes ul li {margin-left: 10px; margin-right: 10px;}
+
+.copy {
+    display: flex;
+    flex-direction: row;
+}
+
+.chat {
+    display: flex;
+    flex-direction: row;
+}
+
+.redes ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.redes ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 /* pagina de reservas */
 
@@ -124,17 +153,42 @@ h2 {
 
 .datos_reserva {
     display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr;
-justify-items: center; 
-gap: 25px;}
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    gap: 25px;
+}
 
-.pago {display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-justify-items: center;}
+.pago {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
 
-.mensaje {display: grid;
-justify-items: center;}
+.mensaje {
+    display: grid;
+    justify-items: center;
+}
 
-/* pagina de las habitaciones posicionamiento y algo de estilo*/
+/* pagina de las habitaciones. Posicionamiento y algo de estilo*/
 
+.caja_habitaciones {
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    gap: 20px; 
+    /* border-style: solid; border-color: #551E19;
+    border-width: 3px; */
+    width: 1100px;
+    gap: 30px;
+    /* margin: 30px;
+    padding: 10px; */
+
+}
+
+.table {display: grid; grid-template-columns: 1fr 1fr; justify-items: center;}
+h3 {text-align: center;}
+
+/* .habitacion {height: 500px;} */
