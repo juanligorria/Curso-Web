@@ -52,86 +52,103 @@
 
 
     </header>
-    <h1>Reservas</h1>
+    <h1 class="reservas">Reservas</h1>
     <Section>
-        <img src="../integrador/img/reservas 2.webp" width="100%" height="500px" alt="foto de una habitacion">
+        <img src="../integrador/img/reservas 2.webp" width="100%" height="540px" alt="foto de una habitacion">
     </Section>
+    
+    section>
     <h2>Datos personales</h2>
-    <section>
-        <form action="post">
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" placeholder="Juan" required>
-
-            <Label for="apellido">Apellido</Label>
-            <input type="text" name="apellido" placeholder="Lopez" required>
-
-            <label for="direccion">Direccion</label>
-            <input type="text" name="direccion" placeholder="San martin 500" required>
-
-            <label for="ciudad">Ciudad</label>
-            <input type="text" name="ciudad" placeholder="Pilar" required>
-
-            <Label for="CP"> Codigo postal</Label>
-            <input type="number" name="CP" placeholder="1456" required>
-
-            <label for="telefono">Telefono</label>
-            <input type="tel" name="telefono" placeholder="15 1111 2222" required>
-
-            <label for="email">Email</label>
-            <input type="email" name="email" placeholder="xxxxxx@gmail.com" required>
+    <form action="post" class="formulario">
+        <div class="datos_personales">
             <div>
-                <h2>Datos de la reserva</h2>
-                <div>
-                    <label for="habitacion">Habitacion</label>
-                    <select name="habitacion" id="habitaciones">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                    </select>
-                </div>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Juan" required>
+            </div>
+            <div>
+                <Label for="apellido">Apellido</Label>
+                <input type="text" name="apellido" placeholder="Lopez" required>
+            </div>
+            <div>
+                <label for="direccion">Direccion</label>
+                <input type="text" name="direccion" placeholder="San martin 500" required>
+            </div>
+            <div>
+                <label for="ciudad">Ciudad</label>
+                <input type="text" name="ciudad" placeholder="Pilar" required>
+            </div>
+            <div>
+                <Label for="CP"> Codigo postal</Label>
+                <input type="number" name="CP" placeholder="1456" required>
+            </div>
+            <div>
+                <label for="telefono">Telefono</label>
+                <input type="tel" name="telefono" placeholder="15 1111 2222" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="xxxxxx@gmail.com" required>
+            </div>
+        </div>
+        <h2>Datos de la reserva</h2>
+        <div class="datos_reserva">
+            
+            <div>
+                <label for="habitacion">Habitacion</label>
+                <select name="habitacion" id="habitaciones">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
 
+            <div>
                 <label for="fecha de llegada">Desde</label>
                 <input type="date" name="fecha de llegada" required>
-
+            </div>
+            <div>
                 <label for="fecha de partida">Hasta</label>
                 <input type="date" name="fecha de partida" required>
-
+            </div>
+            <div>
                 <label for="numero de adultos">Adultos</label>
                 <input type="number" name="numero de adultos" required>
-
+            </div>
+            <div>
                 <label for="numero de niños">Niños</label>
                 <input type="number" name="numero de niños" required>
             </div>
-            <div>
-                <h2>Pago</h2>
-                <span>
-                    <label for="metodo de pago">Efectivo</label>
-                    <input type="radio" name="metodo de pago" value="Efectivo" checked>
-                </span>
-                <span>
-                    <label for="metodo de pago">Tarjeta</label>
-                    <input type="radio" name="metodo de pago" value="tarjeta">
-                </span>
-                <span>
-                    <label for="metodo de pago">Transferencia</label>
-                    <input type="radio" name="metodo de pago" value="transferencia">
-                </span>
-                <span>
-                    <label for="metodo de pago">Mercadopago</label>
-                    <input type="radio" name="metodo de pago" value="mercadopago">
-                </span>
-            </div>
-            <div>
-                <h2>Mensaje</h2>
-                <textarea name="requerimiento" id="requerimiento" cols="30" rows="10"
-                    placeholder="¿Tiene algun requerimiento especial?"></textarea>
-            </div>
-            <div>
-                <input type="reset">
-                <input type="submit">
-            </div>
-        </form>
+        </div>
+        <h2>Pago</h2>
+        <div class="pago">
+            <span>
+                <label for="metodo de pago">Efectivo</label>
+                <input type="radio" name="metodo de pago" value="Efectivo" checked>
+            </span>
+            <span>
+                <label for="metodo de pago">Tarjeta</label>
+                <input type="radio" name="metodo de pago" value="tarjeta">
+            </span>
+            <span>
+                <label for="metodo de pago">Transferencia</label>
+                <input type="radio" name="metodo de pago" value="transferencia">
+            </span>
+            <span>
+                <label for="metodo de pago">Mercadopago</label>
+                <input type="radio" name="metodo de pago" value="mercadopago">
+            </span>
+        </div> 
+        <h2>Mensaje</h2>
+        <div class="mensaje">
+            <textarea name="requerimiento" id="requerimiento" cols="30" rows="10"
+                placeholder="¿Tiene algun requerimiento especial?"></textarea>
+        </div>
+        <div class="mensaje">
+            <input type="reset">
+            <input type="submit">
+        </div>
+    </form>
     </section>
 
     <footer>
@@ -157,8 +174,6 @@
                 <li><span class="material-symbols-outlined" id="pago3">
                     account_balance
                     </span> </li>
-                 
-
 
             </ul>
         </div>
@@ -168,7 +183,7 @@
             <p>Calle Falsa 123</p>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12158.036717870333!2d-71.2585052!3d-40.37540625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9610fe20d9fac925%3A0x70e639f64f6ed72b!2sVilla%20Meliquina%2C%20Neuqu%C3%A9n!5e0!3m2!1ses-419!2sar!4v1683762203353!5m2!1ses-419!2sar"
-                width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                width="100" height="100" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>

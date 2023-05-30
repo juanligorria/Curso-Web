@@ -1,4 +1,5 @@
 header {
+    text-decoration: none;
     background-color: #551E19;
     display: inline-flex;
     width: 100%;
@@ -6,6 +7,9 @@ header {
     top: 0px;
     z-index: 1;
 }
+header a {color:#e6b17e}
+
+
 
 h2 {
     text-align: center;
@@ -14,11 +18,13 @@ h2 {
 body {
     margin: 0;
     margin-top: 80px;
-    background-color: #E6B17E
+    background-color: #E6B17E;
+    margin: 0;
 }
+.btn {color: #551e19;}
 
 * {
-    color: #E6B17E;
+    /* color: #E6B17E; */
     text-decoration: none;
     font-family: 'Dancing Script', cursive;
 }
@@ -32,10 +38,7 @@ header ul {
     margin-top: 55px;
 }
 
-body {
-    margin: 0;
-}
-
+/* footer */
 
 footer div {
     width: 400px;
@@ -98,3 +101,40 @@ flex-direction: row;}
 flex-direction: row;
 list-style: none;}
 .redes ul li {margin-left: 10px; margin-right: 10px;}
+
+/* pagina de reservas */
+
+.datos_personales {
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 25px;
+}
+
+.formulario {
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.datos_reserva {
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+justify-items: center; 
+gap: 25px;}
+
+.pago {display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+justify-items: center;}
+
+.mensaje {display: grid;
+justify-items: center;}
+
+/* pagina de las habitaciones posicionamiento y algo de estilo*/
+
