@@ -16,7 +16,8 @@ header a {
 
 h2 {
     text-align: center;
-    font-size: 18pt;}
+    font-size: 18pt;
+}
 
 body {
     margin: 0;
@@ -179,13 +180,13 @@ h2 {
 .caja_habitaciones {
 
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
 
     /* border-style: solid; border-color: #551E19;
     border-width: 3px; */
-    width: 1100px;
+    width: 100%;
     gap: 30px;
     /* margin: 30px;
     padding: 10px; */
@@ -193,22 +194,24 @@ h2 {
 }
 
 .table {
-    display: grid; 
+    display: grid;
 }
 
 h3 {
     text-align: center;
 }
+
 /* index */
 
-.bosque_nativo {display: grid;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 1fr 1fr;
-align-items: center; justify-content: center;
+.el_hotel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
 }
-.bosque_nativo p {font-size: 16pt;}
-.habitaciones {display: inline-flex;
-align-items: center;
-justify-content: space-around; flex-wrap:wrap: 16pt;}
-.habitaciones p {}
 
+.hotel1 {justify-self: end;}
+.hotel2 {justify-self: center; font-size: 16pt;}
+.hotel3 {justify-self: center; font-size: 16pt;}
+.piepaquetes {display: flex; align-items: center;
+justify-content: space-evenly;}
